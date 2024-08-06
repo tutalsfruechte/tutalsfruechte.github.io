@@ -34,15 +34,12 @@ background-image-overlay : rgba(255, 255, 255, 0.5) # Set overlay for the backgr
 # Site Footer.
 footer:
   links: # replace the URL's with your own for every link you want to have in your footer.
-    - label: "Website"
-      icon: "fa fa-globe"
-      url: "https://perstarke-webdev.de"
     - label: "Email"
       icon: "fa fa-envelope"
-      url: "mailto: per@starke-team.de"
+      url: "mailto: Tutals.Fruechte@gmail.com"
     - label: "Instagram"
       icon: "fab fa-instagram"
-      url: "https://www.instagram.com/per.starke/"
+      url: "https://www.instagram.com/"
   copyright: "Tutals Früchte" # Replace with your own
   creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
       name: "atutal"

@@ -8,24 +8,23 @@ permalink: /
 header:
     overlay_image: /assets/images/header.webp
     overlay_filter: rgba(0, 0, 0, 0.5)
+
+    actions:
+      - label: "Google Maps"
+        url: https://maps.app.goo.gl/axetfUUkCKf5y796A
+        blank: true
+
 excerpt: "**Seit 1999 Obst und Gemüse in Gauting**"
 
 
+gallery_laden:
+    - url: /assets/images/tutals-fruechte-schild.webp
+      image_path: /assets/images/tutals-fruechte-schild.webp
+      alt: "Tutals Früchte vor der Tür."
+    - url: /assets/images/tutals-fruechte-seitlich.webp
+      image_path: /assets/images/tutals-fruechte-seitlich.webp
+      alt: "Tutals Früchte von der seite."
 
-
-gallery:
-    - url: /assets/images/header.webp
-      image_path: /assets/images/header.webp
-      alt: "placeholder image 1"
-      title: "Image 1 title caption"
-    - url: /assets/images/sydney-2.webp
-      image_path: /assets/images/sydney-2.webp
-      alt: "placeholder image 2"
-      title: "Image 2 title caption"
-    - url: /assets/images/sydney-3.webp
-      image_path: /assets/images/sydney-3.webp
-      alt: "placeholder image 3"
-      title: "Image 3 title caption"
 
 gallery_blumen:
     - url: /assets/images/sortiment/blumen/aussen_blumen.webp
@@ -126,12 +125,13 @@ gallery_weine_oele:
 
 
 
-<section class="site-section alternative-color first-section" id="section-1">
+<section class="site-section first-section alternative-color" id="section-1">
 
     <h1>Tutals Früchte</h1>
 
     <p>Qualität ist unsere Stärke</p>
     <p>Frische ist unsere Leidenschaft</p>
+    {% include gallery id="gallery_laden" layout="half" %}
 
     <h2>Frisches Obst und Gemüse seit 1999 in Gauting</h2>
 
@@ -145,7 +145,7 @@ gallery_weine_oele:
 
 <hr class="section-sep">
 
-<section class="site-section alternative-color" id="section-2">
+<section class="site-section" id="section-2">
 
     <h1>Öffnungszeiten</h1>
     <h2>Montag bis Freitag</h2>
@@ -158,7 +158,7 @@ gallery_weine_oele:
 
 <hr class="section-sep">
 
-<section class="site-section" id="section-3">
+<section class="site-section alternative-color" id="section-3">
 
     <h1>Sortiment</h1>
     <h2>Alles täglich frisch!</h2>
@@ -168,7 +168,7 @@ gallery_weine_oele:
     <h1>Gemüse, Pilze und Kräuter</h1>
     <h2>Gemüse</h2>
     <p>Unser Sortiment reicht von Artischoken bis zu Zucchini. Sie finden bei uns Kartoffeln, Rettich, Radieschen, Karotten, Pastinaken, Brokkoli, Petersilwurzeln, Rote Beete, Kohlrabi, Meerrettich, Knoblauch, Zwiebeln, Lauch, Blumenkohl,  Bohnen, Mangold, Rhabarber und vieles mehr.</p>
-    {% include gallery id="gallery_gemuese" %}
+    {% include gallery id="gallery_gemuese" layout="half" %}
 
     <h2>Pilze</h2>
     <p>Pilze kann man gut untergliedern in drei Sparten: die Waldpilze, Zuchtpilze und Trüffel.</p>
@@ -177,22 +177,22 @@ gallery_weine_oele:
         <li>Champignons, Egerlinge, Austernpilze und Kräuterseitlinge zählen zu den Zuchtpilzen und sind somit ganzjährig erhältlich.</li>
         <li>Die schwarzen und weißen Trüffel sind eine Besonderheit und sehr begehrt. An besonderen Festtagen wie Weihnachten oder auf Bestellung sind diese auch in unserem Sortiment.</li>
     </ul>
-    {% include gallery id="gallery_pilze" %}
+    {% include gallery id="gallery_pilze" layout="half" %}
 
     <h2>Salate</h2>
     <p>Sie finden bei vorwiegend im Sommer regionale Salate aus der Gärtnerhalle in München. Im Winter müssen wir unsere Lieferwege ausdehnen, jedoch ist unser Anspruch stets als erstes bei der Qualität.</p>
     <p>Im Sortiment haben wir unter anderem Eichblatt-, Endivien-, Batavia-, Lollo-Rosso-, Lollo-Verde-, Eis-, und natürlich auch Kopfsalat. Zudem finden Sie auch Chicorée, Radicchio, Kresse, Rucola, Portulak  und vieles mehr.</p>
-    {% include gallery id="gallery_salate" %}
+    {% include gallery id="gallery_salate" layout="half" %}
 
     <h1>Obst, Früchte und Nüsse</h1>
     <h2>Früchte</h2>
     <p>Von regionalen Früchten wie Äpfeln, Zwetschgen bis zu exotischen wie der Ananas, Mango, Granadilla führen wir jedes Obst in unserem Sortiment, natürlich mit der Limitation der Jahreszeit.</p>
-    {% include gallery id="gallery_fruechteobst" %}
+    {% include gallery id="gallery_fruechteobst" layout="half" %}
 
     <h2>Exoten & Südfrüchte</h2>
     <p>Besonders hervorzuheben an unserer Auswahl an exotischen Früchten wären beispielsweise Papayas, Physalis, Mangos, Ananas, Passionsfrüchte als auch Maracujas da diese (fast) ganzjährig erhältlich sind.</p>
     <p>Zudem führen wir immer wieder Pitahayas, Granatäpfel, Litschies, Pomelo, Kokosnüsse und Guave.</p>
-    {% include gallery id="gallery_fruechte_exotic" %}
+    {% include gallery id="gallery_fruechte_exotic" layout="half" %}
 
     <h2>Nüsse & Kerne</h2>
     <p>Sie finden bei uns erstklassige Mandeln, Walnüsse, Erdnüsse, Haselnüsse, Macadamianüsse, Paranüsse, Pistazien und vieles mehr.</p>
@@ -205,7 +205,7 @@ gallery_weine_oele:
     <h2>Fruchtbecher & Desserts</h2>
     <p>Täglich frisch bereiten wir für unsere Kunden unsere leckeren Obstsalate und Frucht-Jogurt-Becher zu.</p>
     <p>Zudem haben wir Ananas-, Mango-, Melonenschalen. Auch pulen wir Granatapfelkerne und Grapefruits.</p>
-    {% include gallery id="gallery_desserts" %}
+    {% include gallery id="gallery_desserts" layout="half" %}
 
     <h2>Anatolische Vorspeisen und Salate</h2>
     <p>Wie führen auch leckere selbstgemachte Spezialitäten bei uns im Hause wie:</p>
@@ -214,7 +214,7 @@ gallery_weine_oele:
         <li>Hausgemachte Salate: Kichererbsen-, Griechischer-, Thunfisch-, Artischoken-, Couscous-Salate.</li>
         <li>eingelegte Oliven, Paprika, Kapern, Artischoken, Rote Beete und vieles mehr.</li>
     </ul>
-    {% include gallery id="gallery_vorspeisen_und_salate" %}
+    {% include gallery id="gallery_vorspeisen_und_salate" layout="half" %}
 
     <h2>Käse & Antipasti</h2>
     <p>Sie finden feinste Käsesorten bei uns wie den guten Blümlikäse aus dem Allgäu, gemacht aus reinster Heumilch. Zudem führen wir den begehrten, herben Gwitterchäs aus der Schweiz.</p>
@@ -227,7 +227,7 @@ gallery_weine_oele:
 
     <h2>Blumen</h2>
     <p>Von Rosen bis hin zu Tulpen, Sonnenblumen, Pfingsrosen, Dahlien und viele mehr führen wir je Jahreszeit.</p>
-    {% include gallery id="gallery_blumen" %}
+    {% include gallery id="gallery_blumen" layout="half" %}
 
 </section>
 

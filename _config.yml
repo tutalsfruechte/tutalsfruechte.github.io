@@ -37,9 +37,6 @@ footer:
     - label: "Email"
       icon: "fa fa-envelope"
       url: "mailto: Tutals.Fruechte@gmail.com"
-    - label: "Instagram"
-      icon: "fab fa-instagram"
-      url: "https://www.instagram.com/"
   copyright: "Tutals Früchte" # Replace with your own
   creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
       name: "atutal"

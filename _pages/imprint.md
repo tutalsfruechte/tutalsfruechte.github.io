@@ -11,7 +11,7 @@ Münchenerstr. 5, 82131 Gauting \
 Deutschland
 
 Umsatzsteuer-ID \
-Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE161/281/80641 \
+Umsatzsteuer-Identifikationsnummer gemäß §27 a Umsatzsteuergesetz: DE161/281/81702 \
 Finanzamt: Starnberg
 
 #### Kontakt
